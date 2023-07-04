@@ -1,0 +1,37 @@
+.sidebar-area {
+    min-height: calc(100vh - 5rem);
+    width: 300px;
+    background-color: #b6c9e6;
+    padding: 20px;
+    color: azure;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    transition: left 0.4s;
+}
+
+.sBar-toggle {
+    left: -300px;
+}
+
+.outlet_navOff {
+    margin-left: 0;
+    transition: .4s;
+}
+
+.outlet_navOn {
+    margin-left: 300px;
+    transition: .4s;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .outlet_navOn {
+        margin-left: 0;
+
+    }
+
+
+
+}

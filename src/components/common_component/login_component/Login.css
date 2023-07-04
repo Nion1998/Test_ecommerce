@@ -1,0 +1,14 @@
+.form-container {
+    width: 450px;
+    height: 500px;
+    background-color: rgb(196, 196, 221);
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.login_logo img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}

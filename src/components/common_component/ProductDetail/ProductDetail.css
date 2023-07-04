@@ -1,0 +1,23 @@
+.tabMain img {
+    border: 2px solid
+}
+
+.tabMain img {
+    height: 400px;
+    padding: 2px;
+}
+
+.tabBtn img {
+    max-height: 150px;
+    width: auto;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tabBtn img:hover {
+    border: 2px solid rgb(29, 203, 209);
+}

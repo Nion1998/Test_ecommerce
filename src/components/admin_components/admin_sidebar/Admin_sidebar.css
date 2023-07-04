@@ -1,0 +1,25 @@
+.dashboard .accordion-button::after {
+    display: none;
+}
+
+.admin_sidebar a {
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+.admin_sidebar li {
+    padding: 3px 5px !important;
+    margin-left: 18px;
+    transition: .5s;
+
+}
+
+.admin_sidebar li:hover {
+    background-color: rgb(209, 250, 250);
+}
+
+.admin_sidebar a.active li {
+    background-color: rgb(209, 250, 250);
+
+}
